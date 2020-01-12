@@ -21,6 +21,7 @@ Click to show results to see your eligibility.
 
 Psychology - Minor in Psychology. Select:
   - psychology 1000
+  
 Computer Science - Major in Computer Science:
    - Applied Mathematics 1411A/B
    - Calculus 1000A/B
