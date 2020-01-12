@@ -4,6 +4,7 @@ Web program made to assist students by optimizing the process of searching and r
 Our webpage is a a sample of Wayfinder. We implemented a version of it that would work for some real test cases listed below.
 
 **Available Scripts**
+
 In the project directory, you can download the extension "live server" on Visual Code Studio:
 
 Runs the app in the development mode.
@@ -11,11 +12,13 @@ Click on go live to view it in the browser.
 
 
 **Navigating through the webpage**
+
 Select a course and a course code from the dropdowns.
 Click ADD to save it and add it to your list of courses.
 Click to show results to see your eligibility.
 
 **Some of our test cases**
+
 Psychology - Minor in Psychology. Select:
   - psychology 1000
 Computer Science - Major in Computer Science:
