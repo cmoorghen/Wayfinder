@@ -1,0 +1,139 @@
+<!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="code.js"></script>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+ 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+
+<!-- <body style="margin: 50">
+
+     <form onsubmit="return false">
+
+        <div class="form-group" style="width:50%">
+            <label for="exampleFormControlSelect1">Select Subject</label>
+            <select class="form-control" id="course">
+            <option> </option>
+            <option>Applied Mathematics </option>
+            <option>Biology</option>
+            <option>Calculus</option>
+            <option>Chemistry</option>
+            <option>Computer Science</option>
+            <option>Engineering Science</option>
+            <option>Mathematics</option>
+            <option>Psychology </option> 
+            <option>Statistical Sciences</option> </option>
+            <option>Writing</option>
+            </select>
+        </div>
+    
+        <div class="form-group" id="show" style="width:50%;">
+            <label for="exampleFormControlSelect2" >Select Course</label>
+            <select class="form-control"id="code">
+                <option> </option>
+                <option> 1000A/B</option>
+                <option> 1000</option>
+                <option> 1025A/B</option>
+                <option> 1026A/B</option>
+                <option> 1027A/B</option>
+                <option> 1037A/B</option>
+                <option> 1201A/B</option>
+                <option> 1501A/B</option>
+                <option> 1500A/B</option>
+                <option> 1600A/B</option>
+                <option> 1411A/B</option>
+            </select>
+        </div>
+        <input class="btn btn-outline-secondary" type="button" id="button1" value="Add" onclick="add_element_to_array();display_array()"></input>
+        <p>  
+            <span style="visibility: hidden;" class="output" ></span> 
+        </p>
+        </form>
+    
+        <div id="Result"></div> 
+    
+        <button type="button" onclick="honors(); minor();psych();show()" class="btn btn-outline-secondary" style="margin-top: 25px;">
+        Show results </button>  
+        
+        <button type="button" onclick="reset()" class="btn btn-outline-secondary" style="margin-top: 25px;">
+        RESET </button>  
+        
+        <div id="module"></div> 
+    
+ </body> -->
+
+
+
+
+ <body style="margin:0;height:100%;padding:0">
+    <div style="position:relative;top:200;right:-350;font-weight:bold;"><h2 style="font-family:Arial-Black;font-size:40"> track your path.</h2></div>
+<div style="margin-top:-70;margin-left:260;"> <img src="wayfinder.jpg" alt="WAYFINDER">
+ </div>
+ <div style="margin-right:500;margin-top:-180;"><img style="height:102%; width:28%" src="block.jpg" alt="peach" ></div>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script type="text/javascript" src="code.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+<form style="position:relative;top:-60%;right:-350" onsubmit="return false">
+    <div class="form-group" style="width:50%">
+        <label for="exampleFormControlSelect1">Select Subject</label>
+        <select class="form-control" id="course">
+        <option> </option>
+        <option>Applied Mathematics </option>
+        <option>Biology</option>
+        <option>Calculus</option>
+        <option>Chemistry</option>
+        <option>Computer Science</option>
+        <option>Engineering Science</option>
+        <option>Mathematics</option>
+        <option>Psychology </option>
+        <option>Statistical Sciences</option> </option>
+        <option>Writing</option>
+        </select>
+    </div>
+    <div style="position:relative;top:0;right:0;width:50%" class="form-group" id="show" >
+        <label for="exampleFormControlSelect2" >Select Course</label>
+        <select class="form-control"id="code">
+            <option> </option>
+            <option> 1000A/B</option>
+            <option> 1000</option>
+            <option> 1025A/B</option>
+            <option> 1026A/B</option>
+            <option> 1027A/B</option>
+            <option> 1037A/B</option>
+            <option> 1201A/B</option>
+            <option> 1501A/B</option>
+            <option> 1500A/B</option>
+            <option> 1600A/B</option>
+            <option> 1411A/B</option>
+        </select>
+    </div>
+    <input style="position:relative;top:0;right:0"type="button" id="button1" value="Add" onclick="add_element_to_array();display_array()"></input>
+    <p>
+        <span style="visibility: hidden;" class="output" ></span>
+    </p>
+    </form>
+    <div style="position:relative;top:-350;right:-350" id="Result"></div>
+    <button style="position:relative;top:-350;right:-350; margin-top: 30px;" type="button" onclick="honors(); minor();psych();show()" class="btn btn-outline-secondary" style="margin-top: 50px;">
+    Show results </button>
+    <button style="position:relative;top:-350;right:-350; margin-top: 30px;" type="button" onclick="reset()" class="btn btn-outline-secondary" style="margin-top: 25px;">
+        RESET </button>
+    <div style="position:relative;top:-350;right:-350"id="module"></div>
+ </body>
+
+
+
+
+
+
+
+
+
+
